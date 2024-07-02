@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <header>
+        <h1>Filmio</h1>
+        <nav>
+            <ul>
+                <li><a href="#action" onclick="showGenre('action')">Action</a></li>
+                <li><a href="#comedy" onclick="showGenre('comedy')">Comedy</a></li>
+                <li><a href="#drama" onclick="showGenre('drama')">Drama</a></li>
+                <li><a href="#horror" onclick="showGenre('horror')">Horror</a></li>
+                <li><a href="#romance" onclick="showGenre('romance')">Romance</a></li>
+                <li><a href="#fantasy" onclick="showGenre('fantasy')">Fantasy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Filmio!</h2>
+            <p>Filmio is a film genre management application that allows you to browse and watch your favorite films. With a vast collection of films across various genres, you'll never run out of options.</p>
+            <div id="g_id_onload"
+                 data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                 data-login_uri="http://localhost:8000"
+                 data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin"
+                 data-type="standard"
+                 data-shape="rectangular"
+                 data-theme="outline"
+                 data-text="sign_in_with"
+                 data-size="large"
+                 data-logo_alignment="left">
+            </div>
+        </section>
+        <section id="search">
+            <h2>Search for a film</h2>
+            <input type="search" id="search-input" placeholder="Search for a film...">
+            <button id="search-button" onclick="searchFilm()">Search</button>
+            <ul id="search-results"></ul>
+        </section>
+        <section id="genres">
+            <h2>Genres</h2>
+            <ul id="genres-list">
+                <li class="genre" data-genre="action">
+                    <h3>Action</h3>
+                    <ul class="film-list">
+                        <li>
+                            <img src="images/mad-max.jpg" alt="Mad Max">
+                            <h3>Mad Max: Fury Road</h3>
+                            <p>Action-packed adventure film</p>
+                            <button>Play</button>
+                        </li>
+                        <li>
+                            <img src="images/top-gun-maverick.jpg" alt="Top Gun Maverick">
+                            <h3>Top Gun Maverick</h3>
+                            <p>Action drama movie</p>
+                            <button>Play</button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="genre" data-genre="comedy">
+                    <h3>Comedy</h3>
+                    <ul class="film-list">
+                        <li>
+                            <img src="images/kejar-mimpi-gaspol.jpg" alt="Kejar Mimpi Gaspol">
+                            <h3>Kejar Mimpi Gaspol</h3>
+                            <p>Comedy-drama</p>
+                            <button>Play</button>
+                        </li>
+                        <li>
+                            <img src="images/onde-mande.jpg" alt="Onde Mande">
+                            <h3>Onde Mande</h3>
+                            <p>Classic comedy movie</p>
+                            <button>Play</button>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Add more genres and films here -->
+            </ul>
+        </section>
+
+        <!-- Footer start -->
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/riosamala_?igsh=MW5zcmszOTl0bGV2bw==" target="_blank"><i data-feather="instagram"></i></a>
+            <a href="https://x.com/RioDwipa?t=TggdViwsiXJ3-GTDCTDYYg&s=09" target="_blank"><i data-feather="twitter"></i></a>
+        </div>
+        
+        <div class="credit">
+          <p>Created by <a href=""><H1>FILMIO</H1></a>. | &copy; 2024</p>
+        </div>
+      </footer>
+      <!-- Footer end -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

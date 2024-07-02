@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "title": "Mad Max: Fury Road",
+      "genre": "Action",
+      "poster": "mad-max.jpg",
+      "description": "Action-packed adventure film",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "title": "Die Hard",
+      "genre": "Action",
+      "poster": "die-hard.jpg",
+      "description": "Classic action movie",
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "title": "Kejar Mimpi Gaspol",
+      "genre": "Comedy",
+      "poster": "kejar mimpi-gaspol.jpg",
+      "description": "Drama Comedy",
+      "rating": 4.9
+    },
+    {
+      "id": 4,
+      "title": "Onde Mande",
+      "genre": "Comedy",
+      "poster": "Onde-mande.jpg",
+      "description": "Classic comedy movie ",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "title": "The Silence of the Lambs",
+      "genre": "Thriller",
+      "poster": "silence-lambs.jpg",
+      "description": "Psychological thriller",
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "poster": "forrest-gump.jpg",
+      "description": "Heartwarming drama film",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "title": "The Matrix",
+      "genre": "Science Fiction",
+      "poster": "matrix.jpg",
+      "description": "Innovative sci-fi film",
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Fantasy",
+      "poster": "lord-rings.jpg",
+      "description": "Epic fantasy adventure",
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "poster": "pulp-fiction.jpg",
+      "description": "Cult classic crime film",
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "title": "The Princess Bride",
+      "genre": "Romance",
+      "poster": "princess-bride.jpg",
+      "description": "Classic romantic comedy",
+      "rating": 4.5
+    }
+  ]
